@@ -1,3 +1,4 @@
+--flamingrocket
 hookfunction(game.Players.LocalPlayer.IsInGroup, function() return true end)
 
 _crTJgNFjn4Ma5MkQ, Protected_by_MoonSecV2, Discord = 'discord.gg/gQEH2uZxUk'
