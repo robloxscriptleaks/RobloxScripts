@@ -140,15 +140,20 @@ local function botDrawLots()
 	local drawLots = math.random(1,10) -- ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha 
 
 	if drawLots == 10 then 
-		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "All")		
+		wait(600)
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Type ;lyrics to have my sing one of your favorite songs!", "All")		
 	elseif drawLots == 9 then 
-		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "All")
+		wait(600)
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Type ;lyrics to have my sing one of your favorite songs!", "All")
 	elseif drawLots == 8 then 
-		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "All")
+		wait(600)
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Type ;lyrics to have my sing one of your favorite songs!", "All")
 	elseif drawLots == 7 then 
-		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "All")
+		wait(600)
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Type ;lyrics to have my sing one of your favorite songs!", "All")
 	else 
-		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "All")
+		wait(600)
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Type ;lyrics to have my sing one of your favorite songs!", "All")
 	end
 end
 
