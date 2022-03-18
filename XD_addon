@@ -1,0 +1,25 @@
+--[[
+██▓   ▓██   ██▓ ██▀███   ██▓ ▄████▄    ██████
+▓██▒    ▒██  ██▒▓██ ▒ ██▒▓██▒▒██▀ ▀█  ▒██    ▒
+▒██░     ▒██ ██░▓██ ░▄█ ▒▒██▒▒▓█    ▄ ░ ▓██▄  
+▒██░     ░ ▐██▓░▒██▀▀█▄  ░██░▒▓▓▄ ▄██▒  ▒   ██▒
+░██████▒ ░ ██▒▓░░██▓ ▒██▒░██░▒ ▓███▀ ░▒██████▒▒
+░ ▒░▓  ░  ██▒▒▒ ░ ▒▓ ░▒▓░░▓  ░ ░▒ ▒  ░▒ ▒▓▒ ▒ ░
+░ ░ ▒  ░▓██ ░▒░   ░▒ ░ ▒░ ▒ ░  ░  ▒   ░ ░▒  ░ ░
+ ░ ░   ▒ ▒ ░░    ░░   ░  ▒ ░░        ░  ░  ░  
+   ░  ░░ ░        ░      ░  ░ ░            ░  
+       ░ ░                  ░                
+       
+What is logged when you are using this script:
+- Your HASHED IP
+- The game you execute this script on
+- FPS on execution
+- Ping on exeuction
+]]
+
+--\\ Settings
+shared.botLogs = true -- Disable if your exploit does not support RCONSOLE
+shared.antiFling = true -- Just noclip
+shared.sayDelay = 3 -- 3 is the minimum
+
+loadstring(game:HttpGet(''))()
